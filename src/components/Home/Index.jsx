@@ -1,6 +1,6 @@
 import React from "react";
 import Countdown from "./Countdown";
-import Theme from "../Theme";
+import Theme from "../Theme/Index";
 
 const Home = () => {
   return (
