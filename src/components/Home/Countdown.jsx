@@ -49,9 +49,10 @@ function TimeBox({ label, value }) {
       <p className="text-4xl md:text-6xl font-bold text-accent-lighter">
         {String(value).padStart(2, "0")}
       </p>
-      <p className="mt-2 text-sm uppercase tracking-wider text-light">
+      <p className="mt-2 md:text-md text-[11px] uppercase tracking-wider text-light">
         {label}
       </p>
     </div>
   );
+  s;
 }
