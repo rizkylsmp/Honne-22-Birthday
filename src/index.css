@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-staatliches: "Staatliches", sans-serif;
+
+  --color-light: #e3e3e3;
+  --color-dark: #252525;
+  --color-accent: #0e98ba;
+  --color-accent-darker: #174d61;
+  --color-accent-lighter: #a8f1f9;
+}
