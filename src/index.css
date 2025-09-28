@@ -1,14 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap");
+
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
   --font-staatliches: "Staatliches", sans-serif;
+  --font-medieval: "MedievalSharp", cursive;
+  --font-uncial: "Uncial Antiqua", cursive;
 
   --color-light: #e3e3e3;
   --color-dark: #252525;
-  --color-accent: #0e98ba;
-  --color-accent-darker: #174d61;
-  --color-accent-lighter: #a8f1f9;
+  --color-accent: #445162;
+  --color-accent-darker: #87867a;
+  --color-accent-lighter: #a9a994;
+  --color-highlight: #f1e2be;
+  --color-shadow: #2525259a;
 }

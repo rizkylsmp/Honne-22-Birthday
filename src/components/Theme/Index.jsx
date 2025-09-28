@@ -1,6 +1,7 @@
-import { Moon, Sun } from "@phosphor-icons/react";
 import React from "react";
 import { useState } from "react";
+import Moon from "../../assets/Moon.png";
+import Sun from "../../assets/Sun.png";
 
 const Theme = () => {
   const [darkMode, setDarkMode] = useState(() => {
@@ -31,12 +32,15 @@ const Theme = () => {
 
   return (
     <div>
-      <button onClick={toggleDarkMode}>
-        <div className="text-dark dark:text-light">
+      <button
+        onClick={toggleDarkMode}
+        className="focus:outline-none focus:ring-0"
+      >
+        <div className="text-dark dark:text-light cursor-pointer hover:scale-110 transition-transform duration-300">
           {darkMode ? (
-            <Sun size={32} weight="fill" />
+            <img src={Sun} className="w-16 opacity-75" />
           ) : (
-            <Moon size={32} weight="fill" />
+            <img src={Moon} className="w-16 opacity-75" />
           )}
         </div>
       </button>

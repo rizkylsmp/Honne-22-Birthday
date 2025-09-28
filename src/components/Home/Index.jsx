@@ -4,11 +4,11 @@ import Theme from "../Theme/Index";
 
 const Home = () => {
   return (
-    <div className="relative md:px-0 px-5">
+    <div className="relative">
       <Countdown />
-      <div className="fixed md:top-4 bottom-7 right-7 md:right-4">
+      {/* <div className="fixed md:top-10 bottom-7 right-7 md:right-10">
         <Theme />
-      </div>
+      </div> */}
     </div>
   );
 };
